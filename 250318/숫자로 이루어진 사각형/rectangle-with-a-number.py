@@ -3,13 +3,12 @@ n = int(input())
 # Please write your code here.
 def printNum(n):
     num = 1
-    for i in range(n):
-        row = ''
-        for j in range(n):
-            row += str(num) + ' '
+    for _ in range(n):
+        for _ in range(n):
+            print(num, end=" ")
             num += 1
-            if num > 9:
+            if num == 10:
                 num = 1
-        print(row.strip())
+        print()
 
 printNum(4)
