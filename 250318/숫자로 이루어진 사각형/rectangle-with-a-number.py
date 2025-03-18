@@ -11,4 +11,4 @@ def printNum(n):
                 num = 1
         print()
 
-printNum(4)
+printNum(n)
