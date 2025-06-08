@@ -1,5 +1,4 @@
-a = int(input())
-b = int(input())
+a, b = map(int, input().split())
 c = int(input())
 
-print(a,b,c, sep=" ")
+print(a,b,c)
